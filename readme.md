@@ -10,6 +10,20 @@ Just to calculate Blake3's. That's it. ;)
 
 ..and I just needed that, to right-click on a file and calculate the hash.
 
+## Usage
+### Command Line
+
+Calculate the hash of a file:
+```shell
+Blake3Console.exe <file>
+```
+
+Install context menu item in Windows Explorer:
+```shell
+Blake3Console.exe -i
+```
+Right-click on a file in Windows Explorer, select `Calculate Blake3 hash` and it will display the Blake3 hash.
+
 # 📜License 
 This project is available under a **Mozilla Public License 2.0 (MPL-2.0)**:  
  
